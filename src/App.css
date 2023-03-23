@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.img-container img {
+  height: 50px;
+  width: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
