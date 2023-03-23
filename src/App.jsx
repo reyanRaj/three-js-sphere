@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Ball from './components/Ball'
 import './App.css'
 import css from './assets/tech/css.png'
 import docker from './assets/tech/docker.png'
@@ -10,17 +8,16 @@ import html from './assets/tech/html.png'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='container'>
       <h1>Technologies</h1>
       <div className="img-container">
-        <img src={css} alt="css" />
-        <img src={docker} alt="css" />
-        <img src={figma} alt="css" />
-        <img src={git} alt="css" />
-        <img src={html} alt="css" />
+        <Ball icon={css} />
+        <Ball icon={docker} />
+        <Ball icon={figma} />
+        <Ball icon={git} />
+        <Ball icon={html} />
       </div>
     </div>
   )

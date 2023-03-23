@@ -1,7 +1,12 @@
+Making that boring layout
+
 Install threejs packages
 
 @react-three/drei
 @react-three/fiber
 three
 
-Making that boring layout
+Add new component
+
+Replace it
+
